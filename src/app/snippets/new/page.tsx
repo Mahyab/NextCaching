@@ -30,7 +30,7 @@ const SnippetCreatePage = () => {
           />
         </div>
         {
-        formState.message ? <div className="border my-2 p-2 bg-red-200 rounded">{formState.message}</div> : null
+        formState.message ? <div className="border my-2 p-2 bg-red-200 rounded border-red-400">{formState.message}</div> : null
         }
         <button type="submit" className="rounded p-2 bg-blue-200">
           create
